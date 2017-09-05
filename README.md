@@ -1,1 +1,1 @@
-# Design Tools: Git & GitHub - Rene Garcia
+# Design Tools : Git & Github - Rene Garcia
