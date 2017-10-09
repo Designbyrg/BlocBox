@@ -43,16 +43,17 @@ p {
   margin:0 2% 20px;
 }
 
+.one-half.two{
+  margin-top: -80px;
+
+}
 .offset {
   margin-top: 20px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 412px) {
   .container {
-    width: 300px;
-  }
-  .btn-outline a {
-      color: red;
+    width: 320px;
   }
 }
 
@@ -68,7 +69,13 @@ p {
   }
   .one-half {
     width:46%;
+
   }
+
+  .one-half.two{
+    margin-top: 27px;
+  }
+
   .one-third {
     width:29.33333%;
   }
@@ -137,6 +144,7 @@ header .hero p {
 header .hero img {
   display: block;
   margin:3em auto 0;
+  width: -webkit-fill-available;
 }
 /* BUTTONS */
 .btn {
@@ -337,6 +345,7 @@ footer .logo{
   margin: 0 auto;
   display: block;
   width: 82px;
+  margin-top: -50px;
 }
 
 @media (min-width: 992px){
@@ -355,5 +364,13 @@ footer .logo{
   }
   footer .logo{
     padding: 1.2em 0 2em 3.5em;
+    margin-top: 0px;
   }
+}
+@media (max-width:412px){
+  footer p, footer nav ul {
+    font-size: 14px;
+    font-weight: 100;
+    text-align: center;
+    margin: 1px auto 0;
 }
