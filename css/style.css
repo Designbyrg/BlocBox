@@ -43,6 +43,10 @@ p {
   margin:0 2% 20px;
 }
 
+.offset {
+  margin-top: 20px;
+}
+
 @media (max-width: 400px) {
   .container {
     width: 300px;
