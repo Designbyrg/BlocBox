@@ -374,3 +374,12 @@ footer .logo{
     text-align: center;
     margin: 1px auto 0;
 }
+
+/* Content */
+
+.container {
+ width: 500px;
+}
+.container img {
+ float: left;
+}
